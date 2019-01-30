@@ -1,0 +1,16 @@
+PODS:
+  - JLRoutes (2.1)
+
+DEPENDENCIES:
+  - JLRoutes
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - JLRoutes
+
+SPEC CHECKSUMS:
+  JLRoutes: d755245322b94227662ea3e43492fdca94e05c5b
+
+PODFILE CHECKSUM: 852d73f644d863789d37e273d72edc447a4b7d77
+
+COCOAPODS: 1.5.3

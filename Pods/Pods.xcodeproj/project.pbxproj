@@ -1,0 +1,609 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		207FDFB872FDD6BA677532664C9BE12B /* JLRoutes.h in Headers */ = {isa = PBXBuildFile; fileRef = 6D468F3796A26D9BB57DA33849179FDB /* JLRoutes.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		24D78D3A442A086A770BFFF965E3B54A /* Pods-JLRoutesDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 58C0316DEB7AC115269379232B3EDAA6 /* Pods-JLRoutesDemo-dummy.m */; };
+		3E337A9D8666EC7A0F290423BFDD00DD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		45A10C53E72E1C8332AE0CAC1A754FD9 /* JLRRouteHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = 1248F23A9BCCBC9F91A1E3281678E677 /* JLRRouteHandler.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4BE2D29E33BC0771325F581F769BEC0D /* JLRRouteResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 34C3EEF8698DC37BA858624F2BAE2742 /* JLRRouteResponse.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		550469443C5D7696036B42291A737484 /* JLRRouteResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = A6E183A0D4CA297048473D7268A12C27 /* JLRRouteResponse.m */; };
+		55DCDFE249D21B0E303844617DA89F10 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		619AAC98A7ADA0F741CD676B1F4B8377 /* JLRoutes.m in Sources */ = {isa = PBXBuildFile; fileRef = A18170FF3F0CB5B88DB13A896CC7E3BA /* JLRoutes.m */; };
+		6B41962F68540ECDE79BD1C2CDD36B43 /* JLRoutes-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 596435C8CC025176DE0735B82632FAA8 /* JLRoutes-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6E8D0DB3795F970662E5128C04177F84 /* JLRRouteRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 69E8DC542974B7DB38C5824465E7BD0E /* JLRRouteRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A81B59C937B896279002B67C98E27BB8 /* JLRRouteDefinition.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A3C3C8BF3C03DF5B837D86419D6FA13 /* JLRRouteDefinition.m */; };
+		BBC09EBCBFBA30C0EC54F6A3329FD7F0 /* JLRParsingUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EB9162CB80800A29B3F4DDBA80D7058 /* JLRParsingUtilities.m */; };
+		C42DCA299F3FAFD89B520F523F6FA222 /* JLRParsingUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = F30408A239CC2BB056EE5735C9E69C78 /* JLRParsingUtilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DB5CD05CFDD587BA6CB4BBB0C3504836 /* JLRoutes-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F03C4864927CC9CD691DD83D5465438 /* JLRoutes-dummy.m */; };
+		DE0AC725299441DF18F3C9D3C8A7863E /* JLRRouteRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 1232DC149803A068961C95A8E8BD8B33 /* JLRRouteRequest.m */; };
+		E41F4318C64C42F06854B9D45F0BC64A /* Pods-JLRoutesDemo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8FDB482DC0DE2F1EA39CB4DAB183EE51 /* Pods-JLRoutesDemo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EA53FADAA8E9DA0F89B5D8E3D9A6052A /* JLRRouteHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = DEF9A8181A0EBF476DF6E2F7928ACEBF /* JLRRouteHandler.m */; };
+		EDE4AC82283340C9D5C8B1D133ABD23A /* JLRRouteDefinition.h in Headers */ = {isa = PBXBuildFile; fileRef = E240DF2B9E237F80EE4C7CBC119136B8 /* JLRRouteDefinition.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		549EF777B735F73D1DDFF8EED1078B2B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4233DC7CE7062005620CD480721675AC;
+			remoteInfo = JLRoutes;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1232DC149803A068961C95A8E8BD8B33 /* JLRRouteRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JLRRouteRequest.m; path = JLRoutes/Classes/JLRRouteRequest.m; sourceTree = "<group>"; };
+		1248F23A9BCCBC9F91A1E3281678E677 /* JLRRouteHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JLRRouteHandler.h; path = JLRoutes/Classes/JLRRouteHandler.h; sourceTree = "<group>"; };
+		1BBE5F46283C8E8893D4A35FFACE6B0C /* Pods-JLRoutesDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JLRoutesDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
+		34C3EEF8698DC37BA858624F2BAE2742 /* JLRRouteResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JLRRouteResponse.h; path = JLRoutes/Classes/JLRRouteResponse.h; sourceTree = "<group>"; };
+		36650DF02D0EB9E9047F62BC99B0597B /* Pods-JLRoutesDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JLRoutesDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		3F03C4864927CC9CD691DD83D5465438 /* JLRoutes-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JLRoutes-dummy.m"; sourceTree = "<group>"; };
+		44994F1E12C1BB539816C8EB33F9296A /* Pods-JLRoutesDemo-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JLRoutesDemo-resources.sh"; sourceTree = "<group>"; };
+		47CE793A2EFD3ABDFDF450B562695FE5 /* Pods_JLRoutesDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_JLRoutesDemo.framework; path = "Pods-JLRoutesDemo.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C45FB4C9734910B3B9A32799D57F463 /* JLRoutes.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = JLRoutes.modulemap; sourceTree = "<group>"; };
+		4D5EFCFE79514504D58383B41C655B65 /* JLRoutes.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JLRoutes.xcconfig; sourceTree = "<group>"; };
+		4F1E3A4C9A25DA7B77AAA5F393DBAA74 /* Pods-JLRoutesDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JLRoutesDemo-acknowledgements.plist"; sourceTree = "<group>"; };
+		5748B55DC8A24EE952BE8A41C72BB1AF /* JLRoutes-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JLRoutes-prefix.pch"; sourceTree = "<group>"; };
+		58C0316DEB7AC115269379232B3EDAA6 /* Pods-JLRoutesDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JLRoutesDemo-dummy.m"; sourceTree = "<group>"; };
+		596435C8CC025176DE0735B82632FAA8 /* JLRoutes-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JLRoutes-umbrella.h"; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		69E8DC542974B7DB38C5824465E7BD0E /* JLRRouteRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JLRRouteRequest.h; path = JLRoutes/Classes/JLRRouteRequest.h; sourceTree = "<group>"; };
+		6A3C3C8BF3C03DF5B837D86419D6FA13 /* JLRRouteDefinition.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JLRRouteDefinition.m; path = JLRoutes/Classes/JLRRouteDefinition.m; sourceTree = "<group>"; };
+		6D468F3796A26D9BB57DA33849179FDB /* JLRoutes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JLRoutes.h; path = JLRoutes/JLRoutes.h; sourceTree = "<group>"; };
+		7122CF4C455D03A09BB4771F526864B7 /* Pods-JLRoutesDemo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JLRoutesDemo-frameworks.sh"; sourceTree = "<group>"; };
+		8FDB482DC0DE2F1EA39CB4DAB183EE51 /* Pods-JLRoutesDemo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JLRoutesDemo-umbrella.h"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9EB9162CB80800A29B3F4DDBA80D7058 /* JLRParsingUtilities.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JLRParsingUtilities.m; path = JLRoutes/Classes/JLRParsingUtilities.m; sourceTree = "<group>"; };
+		A18170FF3F0CB5B88DB13A896CC7E3BA /* JLRoutes.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JLRoutes.m; path = JLRoutes/JLRoutes.m; sourceTree = "<group>"; };
+		A6E183A0D4CA297048473D7268A12C27 /* JLRRouteResponse.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JLRRouteResponse.m; path = JLRoutes/Classes/JLRRouteResponse.m; sourceTree = "<group>"; };
+		A90618FAA9E9F79D472100714703CF7B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BFBD3008B18559DC2EABC5E574C7A906 /* JLRoutes.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = JLRoutes.framework; path = JLRoutes.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DEF9A8181A0EBF476DF6E2F7928ACEBF /* JLRRouteHandler.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JLRRouteHandler.m; path = JLRoutes/Classes/JLRRouteHandler.m; sourceTree = "<group>"; };
+		E07F597D9A3DD877D134B613D7C814AC /* Pods-JLRoutesDemo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-JLRoutesDemo.modulemap"; sourceTree = "<group>"; };
+		E240DF2B9E237F80EE4C7CBC119136B8 /* JLRRouteDefinition.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JLRRouteDefinition.h; path = JLRoutes/Classes/JLRRouteDefinition.h; sourceTree = "<group>"; };
+		E81B6C64DE7A7FE5668ECDFEC588E1F0 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EAE630F358DE41135F8EBC1C3E6B3034 /* Pods-JLRoutesDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JLRoutesDemo.release.xcconfig"; sourceTree = "<group>"; };
+		F30408A239CC2BB056EE5735C9E69C78 /* JLRParsingUtilities.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JLRParsingUtilities.h; path = JLRoutes/Classes/JLRParsingUtilities.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		009BD1E5C1414877EFA07A9E4FF0B402 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55DCDFE249D21B0E303844617DA89F10 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A049E1C0526A603778FAE6EC907DEE0F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E337A9D8666EC7A0F290423BFDD00DD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2ED69FC22016E137048B2BA9091F4241 /* JLRoutes */ = {
+			isa = PBXGroup;
+			children = (
+				6D468F3796A26D9BB57DA33849179FDB /* JLRoutes.h */,
+				A18170FF3F0CB5B88DB13A896CC7E3BA /* JLRoutes.m */,
+				F30408A239CC2BB056EE5735C9E69C78 /* JLRParsingUtilities.h */,
+				9EB9162CB80800A29B3F4DDBA80D7058 /* JLRParsingUtilities.m */,
+				E240DF2B9E237F80EE4C7CBC119136B8 /* JLRRouteDefinition.h */,
+				6A3C3C8BF3C03DF5B837D86419D6FA13 /* JLRRouteDefinition.m */,
+				1248F23A9BCCBC9F91A1E3281678E677 /* JLRRouteHandler.h */,
+				DEF9A8181A0EBF476DF6E2F7928ACEBF /* JLRRouteHandler.m */,
+				69E8DC542974B7DB38C5824465E7BD0E /* JLRRouteRequest.h */,
+				1232DC149803A068961C95A8E8BD8B33 /* JLRRouteRequest.m */,
+				34C3EEF8698DC37BA858624F2BAE2742 /* JLRRouteResponse.h */,
+				A6E183A0D4CA297048473D7268A12C27 /* JLRRouteResponse.m */,
+				D73AFFB35B3069C9E0B252F4E0033D08 /* Support Files */,
+			);
+			name = JLRoutes;
+			path = JLRoutes;
+			sourceTree = "<group>";
+		};
+		737F4B4BC66D9079652A4DC476BCDD6A /* Pods-JLRoutesDemo */ = {
+			isa = PBXGroup;
+			children = (
+				A90618FAA9E9F79D472100714703CF7B /* Info.plist */,
+				E07F597D9A3DD877D134B613D7C814AC /* Pods-JLRoutesDemo.modulemap */,
+				1BBE5F46283C8E8893D4A35FFACE6B0C /* Pods-JLRoutesDemo-acknowledgements.markdown */,
+				4F1E3A4C9A25DA7B77AAA5F393DBAA74 /* Pods-JLRoutesDemo-acknowledgements.plist */,
+				58C0316DEB7AC115269379232B3EDAA6 /* Pods-JLRoutesDemo-dummy.m */,
+				7122CF4C455D03A09BB4771F526864B7 /* Pods-JLRoutesDemo-frameworks.sh */,
+				44994F1E12C1BB539816C8EB33F9296A /* Pods-JLRoutesDemo-resources.sh */,
+				8FDB482DC0DE2F1EA39CB4DAB183EE51 /* Pods-JLRoutesDemo-umbrella.h */,
+				36650DF02D0EB9E9047F62BC99B0597B /* Pods-JLRoutesDemo.debug.xcconfig */,
+				EAE630F358DE41135F8EBC1C3E6B3034 /* Pods-JLRoutesDemo.release.xcconfig */,
+			);
+			name = "Pods-JLRoutesDemo";
+			path = "Target Support Files/Pods-JLRoutesDemo";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				D588F903FBF459F13A107F0E996067BA /* Pods */,
+				E780C3725CEE9FF780AE69A2ABE78411 /* Products */,
+				D517ABEFD4B4F209A07FB7915990051C /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		D517ABEFD4B4F209A07FB7915990051C /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				737F4B4BC66D9079652A4DC476BCDD6A /* Pods-JLRoutesDemo */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		D588F903FBF459F13A107F0E996067BA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2ED69FC22016E137048B2BA9091F4241 /* JLRoutes */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D73AFFB35B3069C9E0B252F4E0033D08 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E81B6C64DE7A7FE5668ECDFEC588E1F0 /* Info.plist */,
+				4C45FB4C9734910B3B9A32799D57F463 /* JLRoutes.modulemap */,
+				4D5EFCFE79514504D58383B41C655B65 /* JLRoutes.xcconfig */,
+				3F03C4864927CC9CD691DD83D5465438 /* JLRoutes-dummy.m */,
+				5748B55DC8A24EE952BE8A41C72BB1AF /* JLRoutes-prefix.pch */,
+				596435C8CC025176DE0735B82632FAA8 /* JLRoutes-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/JLRoutes";
+			sourceTree = "<group>";
+		};
+		E780C3725CEE9FF780AE69A2ABE78411 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BFBD3008B18559DC2EABC5E574C7A906 /* JLRoutes.framework */,
+				47CE793A2EFD3ABDFDF450B562695FE5 /* Pods_JLRoutesDemo.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		08EA9D5060A66E50C371BFF2D46866C1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B41962F68540ECDE79BD1C2CDD36B43 /* JLRoutes-umbrella.h in Headers */,
+				207FDFB872FDD6BA677532664C9BE12B /* JLRoutes.h in Headers */,
+				C42DCA299F3FAFD89B520F523F6FA222 /* JLRParsingUtilities.h in Headers */,
+				EDE4AC82283340C9D5C8B1D133ABD23A /* JLRRouteDefinition.h in Headers */,
+				45A10C53E72E1C8332AE0CAC1A754FD9 /* JLRRouteHandler.h in Headers */,
+				6E8D0DB3795F970662E5128C04177F84 /* JLRRouteRequest.h in Headers */,
+				4BE2D29E33BC0771325F581F769BEC0D /* JLRRouteResponse.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		115B060481D791FB72916A96DBB86FFB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E41F4318C64C42F06854B9D45F0BC64A /* Pods-JLRoutesDemo-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		4233DC7CE7062005620CD480721675AC /* JLRoutes */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 08E058A39CD66742DF8E1E4332B654C3 /* Build configuration list for PBXNativeTarget "JLRoutes" */;
+			buildPhases = (
+				1A93A790A13E405D1E77E70A8821FAA9 /* Sources */,
+				A049E1C0526A603778FAE6EC907DEE0F /* Frameworks */,
+				08EA9D5060A66E50C371BFF2D46866C1 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JLRoutes;
+			productName = JLRoutes;
+			productReference = BFBD3008B18559DC2EABC5E574C7A906 /* JLRoutes.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		CBE38AAD04C73A6267BA677B3C29DFC9 /* Pods-JLRoutesDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 98C7A5307F063AFBA86CD86731302254 /* Build configuration list for PBXNativeTarget "Pods-JLRoutesDemo" */;
+			buildPhases = (
+				2F07008985E236F24AF358E57744E99E /* Sources */,
+				009BD1E5C1414877EFA07A9E4FF0B402 /* Frameworks */,
+				115B060481D791FB72916A96DBB86FFB /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				63BF0C490B828003766C724C5DFF54DD /* PBXTargetDependency */,
+			);
+			name = "Pods-JLRoutesDemo";
+			productName = "Pods-JLRoutesDemo";
+			productReference = 47CE793A2EFD3ABDFDF450B562695FE5 /* Pods_JLRoutesDemo.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = E780C3725CEE9FF780AE69A2ABE78411 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4233DC7CE7062005620CD480721675AC /* JLRoutes */,
+				CBE38AAD04C73A6267BA677B3C29DFC9 /* Pods-JLRoutesDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1A93A790A13E405D1E77E70A8821FAA9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB5CD05CFDD587BA6CB4BBB0C3504836 /* JLRoutes-dummy.m in Sources */,
+				619AAC98A7ADA0F741CD676B1F4B8377 /* JLRoutes.m in Sources */,
+				BBC09EBCBFBA30C0EC54F6A3329FD7F0 /* JLRParsingUtilities.m in Sources */,
+				A81B59C937B896279002B67C98E27BB8 /* JLRRouteDefinition.m in Sources */,
+				EA53FADAA8E9DA0F89B5D8E3D9A6052A /* JLRRouteHandler.m in Sources */,
+				DE0AC725299441DF18F3C9D3C8A7863E /* JLRRouteRequest.m in Sources */,
+				550469443C5D7696036B42291A737484 /* JLRRouteResponse.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F07008985E236F24AF358E57744E99E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24D78D3A442A086A770BFFF965E3B54A /* Pods-JLRoutesDemo-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		63BF0C490B828003766C724C5DFF54DD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = JLRoutes;
+			target = 4233DC7CE7062005620CD480721675AC /* JLRoutes */;
+			targetProxy = 549EF777B735F73D1DDFF8EED1078B2B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1784E87F887C9F0DFB48004CFB922CDB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4D5EFCFE79514504D58383B41C655B65 /* JLRoutes.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/JLRoutes/JLRoutes-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/JLRoutes/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/JLRoutes/JLRoutes.modulemap";
+				PRODUCT_MODULE_NAME = JLRoutes;
+				PRODUCT_NAME = JLRoutes;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		1AD17B648D0BE95909AA30294D1794D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4D5EFCFE79514504D58383B41C655B65 /* JLRoutes.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/JLRoutes/JLRoutes-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/JLRoutes/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/JLRoutes/JLRoutes.modulemap";
+				PRODUCT_MODULE_NAME = JLRoutes;
+				PRODUCT_NAME = JLRoutes;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		553022A828EE1991F07D2D73F565AEF8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		58CE816B060A41D32CEC095441D0E3E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		814DDE150C8C9F18C76D12A011D76AE1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 36650DF02D0EB9E9047F62BC99B0597B /* Pods-JLRoutesDemo.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-JLRoutesDemo/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-JLRoutesDemo/Pods-JLRoutesDemo.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9E7F93385FF113A68A5287EC466E45B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EAE630F358DE41135F8EBC1C3E6B3034 /* Pods-JLRoutesDemo.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-JLRoutesDemo/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-JLRoutesDemo/Pods-JLRoutesDemo.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		08E058A39CD66742DF8E1E4332B654C3 /* Build configuration list for PBXNativeTarget "JLRoutes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1784E87F887C9F0DFB48004CFB922CDB /* Debug */,
+				1AD17B648D0BE95909AA30294D1794D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				553022A828EE1991F07D2D73F565AEF8 /* Debug */,
+				58CE816B060A41D32CEC095441D0E3E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		98C7A5307F063AFBA86CD86731302254 /* Build configuration list for PBXNativeTarget "Pods-JLRoutesDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				814DDE150C8C9F18C76D12A011D76AE1 /* Debug */,
+				9E7F93385FF113A68A5287EC466E45B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
